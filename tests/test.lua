@@ -24,6 +24,5 @@ local function traverse_directory(path)
     end
 end
 
--- Основная логика
 print("Current dir: " .. fs.currentdir())
 traverse_directory(".")
