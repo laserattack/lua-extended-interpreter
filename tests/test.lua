@@ -1,11 +1,7 @@
 local function get_file_info(path)
     local attributes = fs.attributes(path)
     if attributes then
-        print("Name: " .. path)
-        print("File: " .. attributes.size .. " байт")
-        print("Modified: " .. os.date("%c", attributes.modification))
-        print("Type: " .. attributes.mode)
-        print("")
+        print("File: " .. path)
     end
 end
 
@@ -24,5 +20,4 @@ local function traverse_directory(path)
     end
 end
 
-print("Current dir: " .. fs.currentdir())
 traverse_directory(".")
