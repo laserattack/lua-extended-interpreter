@@ -1,7 +1,7 @@
-# Что это? 
+#### What is this?
 
-Энтерпретатор Lua с расширенной стандартной библиотекой, основанный на LuaJIT. Собирается в статический бинарник
+A Lua interpreter with an extended standard library, based on LuaJIT. Compiles into a static binary.
 
-# Расширения стандартной библиотеки 
+#### Extended Standard Library
 
-- [LFS](https://github.com/lunarmodules/luafilesystem/) - модуль для взаимодействия с файловой системой
+- [LFS](https://github.com/lunarmodules/luafilesystem/) - module for interacting with the file system
