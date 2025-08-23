@@ -1,7 +1,7 @@
 include config
 
 EXEC = runtime
-LUA_SCRIPT = ${EXEC}.lua
+LUA_SCRIPT = src/${EXEC}.lua
 LUASTATIC = ${LUA_BINARY} ./deps/luastatic/luastatic.lua
 LFS_LIB = ./deps/luafilesystem/src/liblfs.a
 LIBS = $(LUA_LIB) $(LFS_LIB)
