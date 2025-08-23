@@ -14,6 +14,7 @@ all: $(LFS_LIB) $(EXEC)
 $(EXEC): $(LUA_SCRIPT) $(LFS_LIB)
 	$(LUASTATIC) $< $(LIBS) $(LUA_INCLUDES) $(FLAGS) -o $@
 	rm -f ${EXEC}.luastatic.c
+	$(MAKE) -C ./deps/luafilesystem clean
 
 # Сборка LuaFileSystem
 $(LFS_LIB):
