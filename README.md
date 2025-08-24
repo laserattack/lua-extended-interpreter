@@ -1,3 +1,3 @@
-Небольшой пример того как можно расширять функциональность интерпретатора Lua
+A small example of how you can extend the functionality of the Lua interpreter
 
-Тут добавил в него библиотеку LuaFileSystem
+Then I added the LuaFileSystem library to it.
