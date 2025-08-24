@@ -2,7 +2,7 @@ T= lfs
 
 WARN= -O2 -Wall -fPIC -W -Waggregate-return -Wcast-align -Wmissing-prototypes -Wnested-externs -Wshadow -Wwrite-strings -pedantic
 # LUA_INCLUDES прилетает от родительского makefile
-CFLAGS= $(WARN) $(LUA_INCLUDES)
+CFLAGS= $(WARN) -I$(LUA_INCLUDES)
 CC= gcc
 
 SRCS= src/$T.c
